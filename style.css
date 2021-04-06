@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, .conteudo-contato {
+    
+    background-color: #FFFFFF ;
+    box-shadow:  0px 5px 5px 0px #A59996;
+}
+
+.navbar a, .categorias a {
+    color: #545454;
+    text-decoration: none;
+}
+
+header a{
+    padding:  0 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 70px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    align-items: flex-start;    
+}
+
+aside {
+    background-color: #FFFFFF;
+    min-width: 380px;
+    box-shadow:  0px 5px 5px 0px #A59996;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias h3, .publicidade h3{
+    font-weight: 700;
+    font-size: 18px;
+    border-left: 2px solid #FE0078;
+    margin: 30px 0 0 11px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.categorias a {
+    padding: 25px 50px 16px 20px;
+    border-bottom: 2px dotted #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorias a:hover{
+    color: #FE0078;
+    border-color: #FE0078;
+}
+
+.categorias-lista {
+    padding: 0 10px;
+}
+
+main {
+    margin-right: 50px;
+}
+
+.conteudo-fotos, .conteudo-post {
+    box-shadow:  0px 5px 5px 0px #A59996;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    min-height: 696px;
+    min-width: 730px;
+}
+
+.conteudo-fotos h1, .conteudo-post h1 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 11px;
+    padding: 24px 0 8px 24px;
+
+}
+
+.conteudo-fotos h2, .conteudo-post h2 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 11px;
+    padding-left: 24px;
+}
+
+.conteudo-fotos p, .contato p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #545454;
+    padding-left: 24px;
+    padding: 24px 24px 0 24px;
+}
+
+.conteudo-fotos a, .comentarios a {
+    border: 1px solid #FE0078;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #545454;
+    font-size: 14px;
+    padding: 12px 24px 12px 24px;
+    float: right;
+    margin: 30px;
+}
+
+
+footer {
+    background-color: #222222;
+    text-align: center;
+    color: #FFFFFF;
+    height: 70px;
+    line-height: 70px;
+}
+
+.publicidade-img {
+    width: 340px;
+    height: 240px;
+    background-color: #EEEEEE;
+    margin: 40px 20px;
+}
+
+.publicidade-img:last-child {
+    margin-bottom: 40px;
+}
+
+#pesquisa {
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    width: 100%;
+    height: 52px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.estilo-pesquisa {
+    padding: 0 20px;
+}
+
+#pesquisa:hover, #txtNome:hover, #txtemail:hover, #txtComentario:hover, #txtassunto:hover {
+    border: 1px solid #FE0078;
+}
+
+.conteudo-fotos a:hover, .comentarios a:hover {
+    color: white;
+    background-color: #FE0078;
+}
+
+/*SEGUNDA PAGINA*/
+
+ul {
+    margin-left: 48px;
+}
+
+.paragrafos {
+    margin: 24px;
+}
+
+.paragrafo-italico {
+    font-style: italic;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputbox50 {
+    width: 50%;
+}
+
+.inputbox50:first-child {
+    padding-right: 24px;
+}
+
+.inputbox100 {
+    width: 100%;
+}
+
+.inputs input, .inputs textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.inputs input {
+    height: 69px;
+}
+
+.inputs textarea {
+    height: 203px;
+
+}
+
+/*TERCEIRA PAGINA*/
+
+
+.inputsContatos {
+    margin: 24px;
+}
+
+.contato > h1 {
+    font-size:  24px;
+    font-weight:  700;
+    padding: 24px;
+}
+
+.contato p{
+    color: black;
+}
+
+.contato h3 {
+    font-size:  14px;
+    font-weight:  700;
+}
+
+.info-contato h1{
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.info-contato {
+    margin-left: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-contato {
+    margin-top: 24px;
+}
+
+.info-contato p {
+    width: 100%;
+    padding: 0;
+    margin: 15px 0 15px 0;
+}
+
+
